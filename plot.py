@@ -43,8 +43,8 @@ class PandasPlot(object):
         sns.set_style('dark')
         axcolor = 'lightgoldenrodyellow'
 
-        ax_sample_start = plt.axes([0.10, 0.07, 0.4, 0.025], axisbg=axcolor)
-        ax_ch_start = plt.axes([0.10, 0.04, 0.4, 0.025], axisbg=axcolor)
+        ax_sample_start = plt.axes([0.10, 0.07, 0.4, 0.025], facecolor=axcolor)
+        ax_ch_start = plt.axes([0.10, 0.04, 0.4, 0.025], facecolor=axcolor)
 
         self.slider_channel_start = DiscreteSlider(ax_ch_start,
             'Channels', 0, data.shape[1],
