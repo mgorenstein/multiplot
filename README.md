@@ -5,4 +5,4 @@ Developed for plotting and marking of high-dimensional ECoG (electrocorticograph
 
 For usage examples, consult the [tutorial notebook](tutorial.ipynb).
 
-![Sample plot](sample.png)
+![Sample plot](example.gif)
